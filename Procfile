@@ -1,1 +1,1 @@
-web: gunicorn flask_app.py:app
+web: python flask_app.py   --master --processes 4 --threads 2
